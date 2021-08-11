@@ -1,6 +1,7 @@
 # geomrtyr
 cocde for goemtry
 
+```c++
 typedef complex<ld> pt;
 struct circ { pt C; ld R; };
 
@@ -289,3 +290,4 @@ vector<line> circTangents(circ c1, circ c2) {
   if(Z(h2)) ans.pop_back();
   return ans;
 }
+```
